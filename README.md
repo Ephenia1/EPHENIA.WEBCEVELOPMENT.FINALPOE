@@ -339,3 +339,130 @@ Google Fonts (n.d.) *Google Fonts*. Available at: https://fonts.google.com/ (Acc
 **Project:** Brew & Bean Coffee Co.  
 **Module:** WEDE5020 — Web Development (Introduction)  
 **Student:** Ephenia Motau
+
+
+# Changelog — Brew & Bean Coffee Co.
+
+This file records notable changes to the Brew & Bean WEDE5020 website. Dates and entries should reflect work that is actually present in the project. Add future changes when they are made; do not record planned or untested work as completed.
+
+## [3.12] — 2 November 2026
+
+### Fixed / reviewed
+- Updated the contact-page map loading implementation during the Part 3 correction process.
+- Documented that the map marker is approximate and that the final business location must be verified before publication.
+
+### Notes
+- The map requires an internet connection to load Leaflet and OpenStreetMap tiles.
+- The map location must not be described as an exact, verified business address until confirmed.
+
+## [3.11] — 2 November 2026
+
+### Fixed
+- Corrected the menu search and category-filter behaviour so that category selection and text search can be used together.
+- Improved the handling of menu results when the current search/filter combination has no matches.
+
+## [3.10] — 2 November 2026
+
+### Added / documented
+- Expanded project documentation covering setup, page structure, features, testing, deployment and known limitations.
+- Added a final submission checklist and documentation of items that require confirmation before publication.
+- Added technical references relevant to HTML, CSS, JavaScript, SEO, accessibility, mapping and hosted forms.
+
+## [3.9] — Part 3 development
+
+### Improved
+- Added or refined descriptive image filenames and alternative text.
+- Improved responsive styling and keyboard focus presentation.
+- Included reduced-motion considerations and hosting security-header configuration.
+
+## [3.8] — Part 3 development
+
+### Added
+- Page-specific SEO titles and meta descriptions.
+- Semantic heading structure and social-sharing metadata.
+- `robots.txt` and `sitemap.xml` support.
+
+### To verify before publication
+- Replace placeholder sitemap and robots.txt domain values with the final deployed domain.
+
+## [3.7] — Part 3 development
+
+### Added
+- Leaflet map integration on the contact page.
+- OpenStreetMap tile display and an external directions option.
+
+### Notes
+- Exact marker accuracy and external map loading must be tested using the confirmed business location and an internet connection.
+
+## [3.6] — Part 3 development
+
+### Added
+- Contact form fields for visitor contact information, message type and message content.
+- Client-side validation and Netlify Forms markup for hosted submissions.
+
+### To verify before publication
+- Confirm that Netlify detects the form after deployment and configure an authorised notification email address.
+
+## [3.5] — Part 3 development
+
+### Added
+- Order-enquiry form validation and request details.
+- Date and quantity constraints, character count and a dynamic request summary.
+- User-facing guidance that final pricing and availability require business confirmation.
+
+## [3.4] — Part 3 development
+
+### Added
+- Menu text search and category filtering.
+- Dynamic result count and an empty-results state.
+
+## [3.3] — Part 3 development
+
+### Added
+- Home-page image gallery interaction.
+- Lightbox presentation for viewing gallery images at a larger size.
+
+## [3.2] — Part 3 development
+
+### Added
+- Interactive FAQ accordion on the About page.
+- Expanded/collapsed state handling for FAQ controls.
+
+## [3.1] — Part 3 development
+
+### Added / improved
+- Responsive mobile navigation behaviour.
+- Skip link and accessibility-related interaction states.
+- Shared JavaScript enhancements for common page elements.
+
+## [2.0] — Part 2 baseline
+
+### Retained from the supplied project
+- Multi-page website structure and original Brew & Bean visual concept.
+- External CSS stylesheet and supplied image/logo assets.
+- Main pages for Home, About, Services, Enquiry and Contact.
+
+---
+
+## How to maintain this changelog
+
+For every meaningful future update, add a new section at the top using this format:
+
+```markdown
+## [3.13] — DD Month YYYY
+
+### Added
+- Describe a feature that was implemented.
+
+### Changed
+- Describe an existing feature that was modified.
+
+### Fixed
+- Describe a defect that was corrected.
+
+### Tested
+- Describe the test that was actually performed and its result.
+```
+
+Use only the headings that apply. Record the real date and actual change. If an item is only planned, place it under a separate **Planned work** heading rather than listing it as completed.
+

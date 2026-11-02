@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request coffee, pastries or cakes from Brew & Bean. Choose your items, collection date and preferences using our validated enquiry form.">
+  <meta name="keywords" content="coffee order enquiry, cake order Polokwane, pastry order">
+  <meta name="author" content="Brew & Bean Coffee Co.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#3b2924">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Brew & Bean Coffee Co.">
+  <meta property="og:title" content="Order Enquiry | Brew & Bean">
+  <meta property="og:description" content="Request coffee, pastries or cakes from Brew & Bean. Choose your items, collection date and preferences using our validated enquiry form.">
+  <title>Order Enquiry | Brew &amp; Bean Coffee Co.</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="js/main.js" defer></script>
+  
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Brew & Bean home"><img src="images/logo.svg" alt="Brew & Bean coffee cup logo" width="64" height="64"><span>Brew <em>&amp;</em> Bean<small>COFFEE • COMMUNITY • COMFORT</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Menu</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+<main id="main-content"><section class="page-hero compact"><p class="eyebrow">LET'S MAKE IT HAPPEN</p><h1>Tell us what<br><span>you have in mind.</span></h1><p>Share a few details and we will get back to you to confirm your request.</p></section><section class="form-layout section-wrap"><aside class="form-aside"><p class="eyebrow">ORDER ENQUIRIES</p><h2>A little detail<br>goes a long way.</h2><p>Use this form for coffee, pastries, cakes and custom cake requests. Submitting an enquiry is not a confirmed booking or order.</p><div class="aside-detail"><strong>Need help?</strong><a href="tel:+27151234567">015 123 4567</a><a href="mailto:hello@brewandbean.co.za">hello@brewandbean.co.za</a></div><div class="aside-detail"><strong>Collection hours</strong><span>Mon–Fri: 07:00–17:00</span><span>Sat: 08:00–15:00</span><span>Sun: 08:00–13:00</span></div></aside><form class="form-card" name="order-enquiry" method="POST" action="/success.html" data-netlify="true" data-netlify-honeypot="bot-field" id="enquiry-form" novalidate><input type="hidden" name="form-name" value="order-enquiry"><p class="hidden-field"><label>Do not fill this in: <input name="bot-field"></label></p><h2>Order details</h2><p class="form-intro">Fields marked with * are required.</p><div class="form-grid"><div class="field"><label for="fullname">Full name *</label><input id="fullname" name="fullname" type="text" autocomplete="name" minlength="2" maxlength="70" required></div><div class="field"><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="phone">Telephone number *</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" pattern="[0-9+()\s-]{7,20}" minlength="7" maxlength="20" required><small>Use 7–20 digits or common phone symbols.</small></div><div class="field"><label for="product">What would you like? *</label><select id="product" name="product" required><option value="">Choose a category</option><option value="Coffee">Coffee</option><option value="Pastries">Pastries</option><option value="Cake">Cake</option><option value="Iced Drinks">Iced Drinks</option></select></div><div class="field"><label for="quantity">Number of items *</label><input id="quantity" name="quantity" type="number" min="1" max="50" value="1" required></div><div class="field"><label for="eventdate">Preferred collection date *</label><input id="eventdate" name="eventdate" type="date" required></div><fieldset class="field field-wide"><legend>Preferred contact method *</legend><div class="choice-row"><label><input type="radio" name="contactmethod" value="Email" required> Email</label><label><input type="radio" name="contactmethod" value="Telephone"> Telephone</label></div></fieldset><fieldset class="field field-wide"><legend>Additional services</legend><div class="choice-row"><label><input type="checkbox" name="services" value="Delivery"> Delivery (subject to confirmation)</label><label><input type="checkbox" name="services" value="Custom cake design"> Custom cake design</label></div></fieldset><div class="field field-wide"><label for="message">Additional information</label><textarea id="message" name="message" rows="5" maxlength="1000" placeholder="Tell us about flavours, collection details or special requests..."></textarea><small><span id="message-count">0</span>/1000 characters</small></div></div><div class="estimate-panel" id="estimate-panel" aria-live="polite"><strong>Your enquiry summary</strong><p>Select a category and quantity to see your request summary. We will confirm pricing and availability personally.</p></div><div class="form-error" id="enquiry-error" role="alert" hidden></div><button class="button button-primary submit-button" type="submit">Send order enquiry <span aria-hidden="true">→</span></button><p class="privacy-note">Your details are used only to respond to this enquiry. Please do not include payment details or sensitive personal information.</p><div class="form-success" id="enquiry-success" role="status" hidden></div></form></section></main>
+<footer class="site-footer"><div class="footer-inner"><div><a class="footer-brand" href="index.html">Brew <em>&amp;</em> Bean</a><p>Good coffee. Good food. Good moments.</p></div><div><h2>Explore</h2><a href="about.html">Our story</a><a href="services.html">Menu</a><a href="enquiry.html">Order enquiry</a></div><div><h2>Say hello</h2><a href="tel:+27151234567">015 123 4567</a><a href="mailto:hello@brewandbean.co.za">hello@brewandbean.co.za</a><span>123 Coffee Street, Polokwane</span></div></div><div class="footer-bottom"><span>© <span data-current-year>2026</span> Brew &amp; Bean Coffee Co. All rights reserved.</span><a href="contact.html">Contact us</a></div></footer>
+<div class="toast" id="site-toast" role="status" aria-live="polite"></div>
+</body></html>

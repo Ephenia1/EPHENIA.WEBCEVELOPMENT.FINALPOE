@@ -466,3 +466,32 @@ For every meaningful future update, add a new section at the top using this form
 
 Use only the headings that apply. Record the real date and actual change. If an item is only planned, place it under a separate **Planned work** heading rather than listing it as completed.
 
+
+
+
+References
+- Google (n.d.) SEO Starter Guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 2 November 2026).
+
+- Leaflet (n.d.) Leaflet – a JavaScript library for interactive maps. Available at: https://leafletjs.com/reference.html (Accessed: 2 November 2026). 
+Leaflet+1
+
+
+- Mozilla Developer Network (MDN) (n.d.) HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 2 November 2026).
+
+- Mozilla Developer Network (MDN) (n.d.) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 2 November 2026).
+
+- Mozilla Developer Network (MDN) (n.d.) JavaScript. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript (Accessed: 2 November 2026).
+
+- Mozilla Developer Network (MDN) (n.d.) CSS media queries. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries (Accessed: 2 November 2026).
+
+- Netlify (n.d.) Forms setup. Available at: https://docs.netlify.com/manage/forms/setup/ (Accessed: 2 November 2026). 
+Netlify Docs
+
+
+- OpenStreetMap Foundation (n.d.) Tile usage policy. Available at: https://operations.osmfoundation.org/policies/tiles/ (Accessed: 2 November 2026). 
+OSMF Operations
+
+
+- World Wide Web Consortium (W3C) (n.d.) Web Content Accessibility Guidelines (WCAG) 2 Overview. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/ (Accessed: 2 November 2026).
+- 
+
